@@ -1,0 +1,135 @@
+$Red: hsl(0, 78%, 62%)
+$Cyan: hsl(180, 62%, 55%)
+$Orange: hsl(34, 97%, 64%)
+$Blue: hsl(212, 86%, 64%)
+$Very-Dark-Blue: hsl(234, 12%, 34%)
+$Grayish-Blue: hsl(229, 6%, 66%)
+$Very-Light-Gray: hsl(0, 0%, 98%)
+$box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.2)
+
+*
+    margin: 0
+    padding: 0
+    font-family: "poppins"
+    box-sizing: border-box
+
+body
+    display: flex
+    justify-content: center
+    align-content: center
+    main
+        header
+            width: 40%
+            margin: auto
+            text-align: center
+            .reliable
+                font-weight: 200
+            .technology
+                color: $Very-Dark-Blue
+            p
+                color: $Grayish-Blue
+                font-size: 14px
+                margin-bottom: 15px
+        section
+            display: flex
+            align-items: center
+            width: 80%
+            margin: auto
+            justify-content: space-between
+            .supervisor
+                background-color: white
+                box-shadow: $box-shadow
+                width: 32%
+                border-radius: 10px
+                padding: 20px 25px
+                border-top: 4px solid $Cyan
+                h1
+                    font-size: 17px
+                    color: $Very-Dark-Blue
+                p
+                    color: $Grayish-Blue
+                    font-size: 12px
+                    margin-bottom: 50px
+                img
+                    width: 40px
+                    display: block
+                    margin-left: auto
+            .middle
+                width: 32%
+                .team-builder
+                    background-color: white
+                    box-shadow: $box-shadow
+                    margin-bottom: 20px
+                    border-radius: 10px
+                    padding: 20px 25px
+                    border-top: 4px solid $Red
+                    h1
+                        font-size: 17px
+                        color: $Very-Dark-Blue
+                    p
+                        color: $Grayish-Blue
+                        font-size: 12px
+                        margin-bottom: 50px
+                    img
+                        width: 40px
+                        display: block
+                        margin-left: auto
+                .karma
+                    background-color: white
+                    box-shadow: $box-shadow
+                    margin-top: 20px
+                    border-radius: 10px
+                    padding: 20px 25px
+                    border-top: 4px solid $Orange
+                    h1
+                        font-size: 17px
+                        color: $Very-Dark-Blue
+                    p
+                        color: $Grayish-Blue
+                        font-size: 12px
+                        margin-bottom: 50px
+                    img
+                        width: 40px
+                        display: block
+                        margin-left: auto
+            .calculator
+                background-color: white
+                box-shadow: $box-shadow
+                width: 32%
+                border-radius: 10px
+                padding: 20px 25px
+                border-top: 4px solid $Blue
+                h1
+                    font-size: 17px
+                    color: $Very-Dark-Blue
+                p
+                    color: $Grayish-Blue
+                    font-size: 12px
+                    margin-bottom: 50px
+                img
+                    width: 40px
+                    display: block
+                    margin-left: auto
+
+@media  ( max-width: 900px )
+    body
+        main
+            header
+                width: 80%
+            section
+                display: block
+                width: 80%
+                margin: auto
+                .supervisor
+                    margin: auto
+                    margin-bottom: 15px
+                    width: 100%
+                .middle
+                    margin: auto
+                    margin-bottom: 15px
+                    width: 100%
+                .calculator
+                    margin: auto
+                    margin-bottom: 15px
+                    width: 100%
+    
